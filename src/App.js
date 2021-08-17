@@ -2,9 +2,12 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import JoinWaitlist from "./JoinWaitlist/JoinWaitlist";
 import Dummy from "./Dummy/Dummy";
-
+import Navbar from "./mycomponent/Navbar" 
 function App() {
   return (
+    <>
+    <Navbar/>
+   
     <div className="app">
       <Router>
         <div>
@@ -19,6 +22,8 @@ function App() {
         </div>
       </Router>
     </div>
+    
+    </>
   );
 }
 
