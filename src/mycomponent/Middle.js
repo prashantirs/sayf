@@ -3,11 +3,12 @@ import React from "react";
 export default function Middle() {
   return (
     <>
-      <div className="row">
-        <div className="col-lg-6">
-          <h1 className="top-h1">
-            Join our wait list to get early access to the app
-          </h1>
+  
+      <div className="row middle-section">
+        <div className="col-lg-6 middlePara">
+          <div className="top-h1">
+            Join our wait list to get early access to the app <span className="middle-brand-name">SayF</span>
+          </div>
           <p className="top-p">
             SayF is a personal finance app that helps you save, invest and
             optimize your spending for a better future
